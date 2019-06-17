@@ -16,5 +16,6 @@
 __WARNING:__ Currently the functionality to exit from the python script has not been added, so only option for now is reboot. However, for debugging purpose counter value is limited to 1002 (starts from 1000 and ends at 1002).
 ## Screenshot
 <img src = "https://github.com/Saurabh702/counter-display/blob/master/Screenshot.PNG" width = "500" />
+
 ## References
 *https://pythonprogramming.net/displaying-text-pygame-screen/
