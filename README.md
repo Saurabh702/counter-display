@@ -18,4 +18,4 @@ __WARNING:__ Currently the functionality to exit from the python script has not 
 <img src = "https://github.com/Saurabh702/counter-display/blob/master/Screenshot.PNG" width = "500" />
 
 ## References
-*https://pythonprogramming.net/displaying-text-pygame-screen/
+* https://pythonprogramming.net/displaying-text-pygame-screen/
