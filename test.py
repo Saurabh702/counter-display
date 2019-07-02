@@ -4,8 +4,9 @@ import random
 
 pygame.init()
 
-display_width = 800
-display_height = 600
+displayInfo = pygame.display.Info()
+display_width = displayInfo.current_w
+display_height = displayInfo.current_h
 
 black = (0,0,0)
 white = (255,255,255)
