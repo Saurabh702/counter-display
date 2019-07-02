@@ -31,13 +31,15 @@ def message_display(text):
     time.sleep(1)
 	
 def display():
-    counter = 1000
-    while True:
+    counter = 0
+    running  = True
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                running = False
         message_display(str(counter))
         gameDisplay.fill(white)
         counter = counter + 1
-        if counter == 1002:
-            break
 			
 display()				
 pygame.quit()
